@@ -9,7 +9,7 @@
 
 body{
   width: 100%;
-  height: 100 vh;
+  height: 100vh;
   background: url(assets/Peti%20portr%C3%A9.jpg)
   no-repeat ;
   background-size: cover;
@@ -19,7 +19,7 @@ body{
 .profile-card{
   margin: 80px 50px 20px auto;
   width: 300px;
-  max-width: calc (100vw-10px);
+  max-width: calc(100vw-10px);
   text-align: center;
   
   
@@ -49,23 +49,26 @@ h1{
 h2{
   font-size: 25px;
 }
-.profile-image{
-  margin-top: 0px;
-  
-}
-img{
+
+#profil{
   width: 100px;
   height: 100px;
-  margin-top: -100px;
-  
+  margin-top: -200px;
   border-radius: 80%;
+  padding: 1px;
+  background-color: royalblue;
 }
-.name-headline{
-  background-color: ;
-}
-.about{
+.language{
+  text-align: center;
+ } 
+img{
+  width: 35px;
+  text-align: center;
+  margin: 30px auto auto 30px;
   
+    
 }
+
 .links{
   text-align: center;
   margin-bottom: -20px;
@@ -80,8 +83,4 @@ li{
 img:hover {
   transform: scale(1.1);
   filter: grayscale(20%);
-}
-img {
-  padding: 1px;
-  background-color: #666;
 }
